@@ -31,5 +31,5 @@ scanf("%d",&a);
 printf("\n b=");
 scanf("%d",&b);
 c=a/b;
-printf("\n division is =%d",c);
+printf("\n division is ==%f",c);
 }
