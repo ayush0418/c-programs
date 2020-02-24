@@ -2,7 +2,7 @@
 void leapyear(int y)
 {
   int i=0;
-  if (y%4==0)
+  if (y%4==0)         //leap year comes in every 4 year
   {
      printf("\n %d is a leap year",y);
      else
@@ -15,6 +15,6 @@ void main()
   int y;
   printf("\n enter the year =");
   scanf("%d",&y);
-  leapyear(y);
+  leapyear(y);                   //function called
   return 0;
 }
