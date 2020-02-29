@@ -2,7 +2,7 @@
 int main()
 {
       int base,exp;
-      long int result;
+      long int result =1;
       printf("\n enter a base number: ");
       scanf("%d",& base);
       printf("enter an exponent: ");
