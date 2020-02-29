@@ -16,3 +16,11 @@ int main()
       printf("Answer = %ld" ,result);
       return 0;
 }
+
+
+/*    OUTPUT OF PROGRAM
+      
+      enter a base number: 4
+      enter an exponent: 4
+      Answer = 256
+*/
