@@ -22,3 +22,10 @@ void main()
 	        printf("\n %d is not a pallindrom number.",n);
          }
 }
+
+
+/*  OUTPUT OF PROGRAM
+
+    enter any number 123
+    123 is a pallindrom number.
+*/
