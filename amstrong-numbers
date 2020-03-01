@@ -15,9 +15,9 @@ int main()
      
      if(r==n)
      {
-          printf("\n %d is armstrong",n);
+          printf("\n %d is an armstrong.",n);
      else
-          printf("\n %d is not armstrong",n);
+          printf("\n %d is not an armstrong.",n);
      }
 }
 
