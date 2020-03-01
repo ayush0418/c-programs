@@ -1,16 +1,16 @@
 #include<stdio.h>
 int main()
 {
-     int n,r=0,d,t;
+     int n,r=0,d,t;    
      printf("\n enter any number: ");
      scanf("%d",&n);
 
      t=n;
      while(t!=0)
      {
-           d = t%10;
-	   r = r + d*d*d;
-	   t = t/10;
+           d = t%10;            //"d" is the remainder
+	   r = r + d*d*d;       //"r" is the result
+	   t = t/10;            //"t" is the original number
      }
      
      if(r==n)
