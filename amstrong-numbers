@@ -20,3 +20,11 @@ int main()
           printf("\n %d is not armstrong",n);
      }
 }
+
+
+/*
+         OUTPUT OF PROGRAM
+         
+	 enter any number: 134
+         134 is not an armstrog
+*/
