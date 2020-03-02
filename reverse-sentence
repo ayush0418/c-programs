@@ -1,0 +1,17 @@
+#include<stdio.h>
+void rs();
+int main()
+{
+        printf("\n Enter a sentence");
+	rs();
+	return 0;
+}
+
+void rs()
+{
+   char c;
+   scanf("%c",&c);
+    if(c != '\n');
+    rs();
+    printf("revrese sentence is %c",c);
+}
