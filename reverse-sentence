@@ -2,7 +2,7 @@
 void rs();          //"rs" is the reverse sentence
 int main()
 {
-        printf("\n Enter a sentence");
+        printf("\n Enter a sentence: ");
 	rs();
 	return 0;
 }
@@ -13,5 +13,12 @@ void rs()
    scanf("%c",&c);
     if(c != '\n');
     rs();                             //this will be called again and again until the user enters '\n'(newline)
-    printf("revrese sentence is %c",c);
+    printf("\n revrese sentence is %c",c);
 }
+
+
+/*     OUTPUT OF PROGRAM
+       
+       Enter a sentence: lasnaB hsuyA
+       reverse sentence is Ayush Bansal
+*/
