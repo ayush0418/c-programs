@@ -5,7 +5,7 @@ int main()
        int num;
        printf("Enter a positive integer: ");
        scanf("%d",&num);
-       printf("SUM =%d",add(num));
+       printf("\n SUM =%d",add(num));
        return 0;
 }
 
@@ -17,3 +17,8 @@ int add(int n)
           return 0;
 }
 
+/*    OUTPUT OF PROGRAM
+      
+      Enter a positive integer: 10
+      SUM =55
+*/
