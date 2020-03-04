@@ -1,8 +1,7 @@
 #include<stdio.h>
-int mian()
+int main()
 {
-     int i,n;
-     float a[100];
+     int i,n,a[100];
      printf("\n Enter the number of elements(1-100): ");
      scanf("%d", &n);
      
@@ -10,7 +9,7 @@ int mian()
      for (i=0;i<n;i++)
        {
            printf("\n enter number %d:",i+1);
-           scanf("%f",a[i]);
+           scanf("%d",a[i]);
        }
        
        for(i=1;i<n;i++)
@@ -19,6 +18,6 @@ int mian()
 	 a[0] = a[i];
        }
 
-       printf("Largest element =%f",a[0]);
+       printf("Largest element =%d",a[0]);
 }
 
