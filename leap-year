@@ -18,3 +18,10 @@ void main()
   leapyear(y);                   //function called
   return 0;
 }
+
+
+/*     OUTPUT OF PROGRAM
+
+       enter the year =2020
+       2020 is a leap year
+*/       
