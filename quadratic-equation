@@ -11,20 +11,20 @@ int main()
     printf("\n c=");
     scanf("%d",&c);
 
-    d = sqrt(b*b - 4(a)(c));    // discriminant
+    d = b*b - 4*a*c;    // discriminant
 
     if(d >= 0)
     {
-      root1 = (-b + d)/2(a);
-      root2 = (-b - d)/2(a);
+      root1 = (-b + sqrt(d))/(2*a);
+      root2 = (-b - sqrt(d))/(2*a);
 
       printf("\n root1 is =%d",root1);
       printf("\n root2 is =%d",root2);
 
     else
 
-      root1 = (-b + id)/2(a);
-      root2 = (-b - id)/2(a);
+      root1 = (-b + sqrt(d)i)/(2*a);
+      root2 = (-b - sqrt(d)i)/(2*a);
 
       printf("\n root1 is %d",root1);
       printf("\n root2 is %d",root2);
