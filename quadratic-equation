@@ -1,0 +1,32 @@
+#include<stdio.h>
+#include<math.h>
+int main()
+{
+    int a,b,c,d,root1,root2;
+
+    printf("\n a=");
+    scanf("%d",&a);
+    printf("\n b=");
+    scanf("%d",&b);
+    printf("\n c=");
+    scanf("%d",&c);
+
+    d = sqrt(b*b - 4(a)(c));    // discriminant
+
+    if(d >= 0)
+    {
+      root1 = (-b + d)/2(a);
+      root2 = (-b - d)/2(a);
+
+      printf("\n root1 is =%d",root1);
+      printf("\n root2 is =%d",root2);
+
+    else
+
+      root1 = (-b + id)/2(a);
+      root2 = (-b - id)/2(a);
+
+      printf("\n root1 is %d",root1);
+      printf("\n root2 is %d",root2);
+    }
+}
