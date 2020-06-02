@@ -12,6 +12,6 @@ int mian()
        if(n2%i==0 && n2%i==0)
          gcd=i;
     }
-    printf("\n G.C.D of %d and %d is %d"n1,n2,gcd);
+    printf("\n G.C.D. of %d and %d is %d"n1,n2,gcd);
 }
 
