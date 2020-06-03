@@ -1,2 +1,2 @@
- # This repository contains the programs written in c-language.
+ # This repository contains the programs in C-language.
  
