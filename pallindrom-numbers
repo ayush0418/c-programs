@@ -3,7 +3,7 @@ void main()
 {
          int n,r=0,d,t;
 
-	 printf("\n enter any number ");
+	 printf("\n enter the integer ");
 	 scanf("%d",&n);
           
 	 t=n;
@@ -27,5 +27,5 @@ void main()
 /*  OUTPUT OF PROGRAM
 
     enter any number 123
-    123 is a pallindrom number.
+    123 is not a pallindrom number.
 */
