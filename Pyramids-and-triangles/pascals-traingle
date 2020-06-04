@@ -1,0 +1,27 @@
+#include<stdio.h>
+int main()
+{
+  int i,j,k,rows,coeff=1;
+  printf("\n enter the number of rows: ");
+  scanf("%d",&rows);
+  
+  for(i=1;i<=rows;i++)
+  {
+    for(j=1;j<=rows-i;j++)
+    {
+      printf(" ");
+    }
+    for(k=0;k<=i;k++)
+    {
+      if(i==0||k==0)
+      
+        coeff=1;
+      
+      else
+        coeff=coeff*(i-k+1)/j;
+    
+        printf("%4d"coeff);
+    }
+    printf("\n");
+}
+
