@@ -1,0 +1,29 @@
+#include<stdio.h>
+int main()
+{
+   int a,b,flag;
+   printf("\n enter two positive integer: ");
+   scanf("%d %d",a,b);
+
+   printf("\n Prime numbers between %d and %d are: ",a,b);
+
+   for(i=a+1;i<b;i++)
+   {
+      flag=checkPrimeNumber(i);
+      printf("%d",i)
+   }
+
+
+   int checkPrimeNumber(int n)
+   {
+     int j,flag=1;
+     for(j=2;j<=n/2;j++)
+     {
+       if(n%j==0)
+       flag=0;
+       break;
+     }
+   }
+   return flag;
+}
+
