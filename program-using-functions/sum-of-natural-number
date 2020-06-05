@@ -1,0 +1,19 @@
+#include<stdio.h>
+int main()
+{
+  int n;
+  printf("\n enter the integer: ");
+  scanf("%d",&n);
+
+  printf("sum= %d",addInteger(n));
+  return 0;
+}
+
+int addInteger(num)
+{
+   if(num!=0)
+       return num + addInteger(num-1);
+   else
+       return 0;
+}
+
