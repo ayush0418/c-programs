@@ -1,0 +1,25 @@
+#include<stdio.h>
+int main()
+{
+  int i,n;
+  float num[100],sum=0.0,avg;
+  printf("\n enter the number of elements: ");
+  scanf("%d",&n);
+
+  while(n>100||n<1)
+  {  
+    printf("\n Error!Number should be in the range of (1-100).);
+    printf("\n Enter the number again!);
+    scanf("%d",&n);
+  }
+
+  for(i=0;i<6;i++)
+  {
+    printf("\n %d. Enter the number: ",i+1);
+    scanf("f",&num[i]);
+    sum = sum + num[i];
+  }
+
+  avg = sum/n;
+  printf("Average of %d numbers is: %f",n,avg);
+}
