@@ -1,0 +1,30 @@
+#include<stdio.h>
+int main()
+{
+  int n,i;
+  float num[100];
+
+  printf("\n Enter the number of elements from 1-100: ");
+  scanf("%d",&n);
+
+  while(n>100||n<1)
+  {
+    printf("\n Error! Try Again");
+    printf("\n Enetr again: ");
+    scanf("%d",&n);
+  }
+  
+  for(i=0;i<6;i++)
+  {
+    printf("%d. Enter number: ",i+1);
+    scanf("%d",&num[i]);
+  }
+
+  for(i=0;i<6;i++)
+  {
+    if(num[0]<num[i]);
+      num[0]=num[i];
+  }
+
+  printf("Largest element is =%f",num[0]);
+}
