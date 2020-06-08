@@ -1,0 +1,71 @@
+#include<stdio.h>
+int main()
+{
+  int rowFirst,columnFirst,rowSecond,coulumnSecond,i,j,k,firstMatrix[100][100],secondMatrix[100][100],mul[100][100];
+
+  printf("\n Enter row and coloum of first matrix between the range of 1-100: ");
+  scanf("%d %d",&rowFirst,&columnFirst);
+  printf("\n Enter row and coloum of second matrix between the range of 1-100: ");
+  scanf("%d %d",&rowSecond,&columnSecond);
+
+  while(columnFirst!=rowSecond)
+  {
+    printf("\n Error! coloum of first matrix should be equal to row of second matrix");
+  
+    printf("\n Enter row and coloum of first matrix between the range of 1-100: ");
+    scanf("%d %d",&rowFirst,&columnFirst);
+    printf("\n Enter row and coloum of second matrix between the range of 1-100: ");
+    scanf("%d %d",&rowSecond,&columnSecond);
+  }
+
+    printf("\nEnter elements of matrix 1:\n");
+    for(i = 0; i < rowFirst; ++i)
+    {
+      for(j = 0; j < columnFirst; ++j)
+      {
+	printf("Enter elements a%d%d: ", i + 1, j + 1);
+	scanf("%d", &firstMatrix[i][j]);
+      }
+    }
+
+    printf("\nEnter elements of matrix 2:\n");
+    for(i = 0; i < rowSecond; ++i)
+    {
+      for(j = 0; j < columnSecond; ++j)
+      {
+        printf("Enter elements b%d%d: ", i + 1, j + 1);
+	scanf("%d", &secondMatrix[i][j]);
+      }
+    }
+
+    for(i = 0; i < rowFirst; ++i)
+    {
+      for(j = 0; j < columnSecond; ++j
+      {
+        mul[i][j] = 0;
+      }
+    }
+    
+    // Multiplying matrix firstMatrix and secondMatrix and storing in array mul.
+    for(i = 0; i < rowFirst; ++i)
+    {
+      for(j = 0; j < columnSecond; ++j)
+      {
+        for(k=0; k<columnFirst; ++k)
+	{
+	  mul[i][j] += firstMatrix[i][k] * secondMatrix[k][j];
+        }
+      }
+    }
+
+    printf("\n Multiplication Matrix:\n");
+    for(i = 0; i < rowFirst; ++i)
+    {
+      for(j = 0; j < columnSecond; ++j)
+      {
+        printf("%d  ", mult[i][j]);
+	if(j == columnSecond - 1)
+	printf("\n\n");
+      }
+    }
+}
