@@ -1,0 +1,28 @@
+#include <stdio.h>
+void reverseSentence();
+int main()
+{
+    printf("Enter a sentence: ");
+    reverseSentence();
+    return 0;
+}
+
+void reverseSentence()
+{
+    char c;
+    scanf("%c", &c);
+    if (c != '\n')
+    {
+        reverseSentence();
+        printf("Reverse sentence: %c", c);
+    }
+}
+
+
+
+
+/*                                        OUTPUT
+                    
+		       Enter a sentence: lasnab hsuya0
+		       Reverse sentence: ayush bansal
+*/
