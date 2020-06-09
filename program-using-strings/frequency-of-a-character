@@ -5,12 +5,12 @@ int main()
    int count = 0,i;
 
    printf("\n Enter a string: ");
-   gets(str);
+   fgets(str, sizeof(str), stdin);
 
    printf("\n Enter a character to find its frequency: ");
    scanf("%d",&ch);
 
-   for(i=0;str[i]!=\0;i++)
+   for(i=0;str[i]!='\0';i++)
    {
      if(ch==str[i])
        ++count;
