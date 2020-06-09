@@ -8,7 +8,7 @@ int main()
    fgets(str, sizeof(str), stdin);
 
    printf("\n Enter a character to find its frequency: ");
-   scanf("%d",&ch);
+   scanf("%c",&ch);
 
    for(i=0;str[i]!='\0';i++)
    {
