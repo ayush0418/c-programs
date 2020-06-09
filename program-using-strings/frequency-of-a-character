@@ -7,7 +7,7 @@ int main()
    printf("\n Enter a string: ");
    gets(str);
 
-   printf("\n Enter a character to find its frequency");
+   printf("\n Enter a character to find its frequency: ");
    scanf("%d",&ch);
 
    for(i=0;str[i]!=\0;i++)
@@ -18,3 +18,18 @@ int main()
 
    printf("\n Frequency of %c is: %d",ch,count);
 }
+
+
+/*      
+                                                 OUTPUT 1
+						    
+			      Enter a string: Ayush bansal
+			      Enter a character to find its frequency: a
+			      Frequency of a is: 2
+
+                                                 OUTPUT 2
+
+                	      Enter a string: ayush bansal
+                              Enter a character to find its frequency: a
+                              Frequency of a is: 3
+*/ 
