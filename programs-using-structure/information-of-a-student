@@ -1,0 +1,26 @@
+#include<stdio.h>
+struct information
+{
+   char name[100];
+   int rollno.;
+   float marks;
+}s1;
+
+int main()
+{
+   printf("\n Enter the information");
+   
+   printf("\n Enter name: ");
+   fgets(s1.name, sizeof(s1.name), stdin);
+   printf("\n Enter rollno.: ");
+   scanf("%d",&s1.rollno);
+   printf("\n Enter marks: ");
+   scanf("%f",&s1.marks);
+
+   printf("\n Displaying information");
+   
+   printf("\n Name: %s",name);
+   printf("\n Rollno.: %d",rollno);
+   printf("\n Marks: %f,marks);
+}
+
